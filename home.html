@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/logosolo.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>TeLLevo App</title>
+</head>
+
+<body class="colorpagina">
+
+
+    <section id="descservicios" class="text1 text-center">
+        <div>
+            <h2>TeLlevoAPP</h2>
+            <p>Estamos orientados en brindar los mejores viajes para los estudiantes de DuocUC</p>
+            <div>
+                <div>La aplicac&iacute;on busca que los alumnos</div>
+                <div>se organicen a trav&eacute;s de la App para que puedan</div>
+                <div>llegar a sus hogares utilizando veh&iacute;culos de algunos alumnos</div>
+                <div>retornar que si tienen movilizaci&oacute;n propia.</div>
+            </div>
+            <br>
+            <br>
+        </div>
+        <img src="icons/AutoLogo.png" width="380" alt="">
+    </section>
+    
+    <section id="descservicios" class="text1 text-center">
+        <div class="descripcionServicios">
+            <h2>Funcionalidades de la APP
+            </h2>
+            <p>Nuestra Aplicac&iacute;on cuenta con las funcionalidades b&aacute;sicas para que los alumnos puedan programar o solicitar un viaje.</p>
+            <p>La Aplicac&iacute;on cuenta con:</p>
+            <ul>
+                <li>Inicio de sesi&oacute;n con las crendenciales del estudiante DuocUc</li>
+                <li>Elegir el Rol de Conductor/Pasajero</li>
+                <li>Programar un viaje con el datos del veh&iacute;culo, horario, capacidad, detino y tarifa(Rol Conductor)</li>
+                <li>Ver el camino de recorrido del viaje</li>
+                <li>Solicitar viajes disponibles del dia (Rol Pasajero)</li>
+                <li>Correo de confirmac&iacute;on del viaje</li>
+            </ul>
+            <br>
+            <br>
+        </div>
+
+    </section>
+
+    <section id="descservicios" class="text1 text-center">
+        <div class="descripcionServicios">
+            <h2>Requerimientos</h2>
+            <p>Requerimientos b&aacute;sicos que necesita para instalar la App</p>
+            <ul>
+                <li>Android / IOS</li>
+                <li>Conexion a internet</li>
+            </ul>
+            <br>
+            <br>
+        </div>
+
+    </section >
+    <section class="qrresponsive seccionqr"   >
+        <h2 class="qrletra">Descargar Aplicac&iacute;on</h2>
+        <img src="icons/QR.png" class="qrfoto" width="160" alt="">
+    </section>
+    <section class="secciondownload">
+        <h2 class="qrletra">Descargar Aplicac&iacute;on</h2>
+    <button class="buttondownload"><a class="acolor" href="TellevoAPP.apk" download>TellevaAPP</a> </button> 
+    </section>
+
+
+    <br>
+    <footer class="pie-footer">
+        <div class="grupo1 container">
+            <div class="box1">
+                <a href="#" target="_blank">
+                    <img src="{%static 'suscripciones/img/logosolo.png'%}" alt="">
+                </a>
+            </div>
+            <div class="box2">
+                <h3>Sobre Nosotros</h3>
+                <p>Este es un proyecto creados por los estudiantes de DuocUC de la sede de Viña del Mar de la escuela de ingen&iacute;era en inform&aacute;rtica y comunicac&iacute;ones</p>
+            </div>
+            <div class="box3">
+                <h3>CONTACTOS</h3>
+                <ul>
+                    <li>
+                        <i><a href="#" class="fa-brands fa-instagram"></a>  TeLLevoAPP</i>
+
+                    </li>
+                    <li>
+                        <i>  <a href="https://api.whatsapp.com/send?phone=+56954170539" class="fa-brands fa-whatsapp"  target="_blank"></a>   Whatsapp<i></i>
+                    </li>
+                    <li>
+                       <a href="">Cont&aacute;ctanos AC&Aacute;</a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+        <p class="text-center py-2"><small>&copy; TeLLevo App </small></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script>
+    function detectBrowser() {
+
+let userAgent = navigator.userAgent;
+let browserName;
+if (userAgent.match(/chrome|chromium|crios/i)) {
+  browserName = "Chrome";
+    
+}   else if (userAgent.match(/android/i)) {
+  browserName = "Android";
+} else if (userAgent.match(/iphone/i)) {
+  browserName = "iPhone";
+} else {
+  browserName = "Unknown";
+}
+
+document.querySelector("div.form-style h3").innerText =
+  "You are browsing with: " + browserName + "";
+}
+</script>
+</body>
+
+</html>

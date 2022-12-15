@@ -1,0 +1,195 @@
+/*PAGINA PRINCIPAL*/
+
+* {
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    font-size: 1.4em;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+.navbar,
+footer {
+    background-color: black;
+}
+.colorpagina{
+    background-color: grey;
+    color:azure;
+}
+.nav-link {
+    color: #000000a1;
+}
+
+.pie-footer{
+  color:azure;
+}
+
+.navbar img {
+    margin-left: 10px;
+}
+
+.nuestroservicio {
+    margin: 50px 0 50px;
+}
+
+.nuestroservicio h3 {
+    text-align: center;
+}
+
+.nuestroservicio p {
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+}
+
+.imagenCard {
+    width: 100px;
+}
+
+.descservicios {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+
+
+
+.qrfoto{
+  margin-left: 47%
+}
+ .qrletra{
+   margin-left: 46%;
+ }
+
+.suscripcion li {
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.text1 {
+    width: 80%;
+    margin: 50px auto;
+
+    text-align: center;
+
+    justify-content: space-between;
+}
+
+
+
+
+
+
+footer {
+    padding: 50px 0 50px;
+}
+
+.grupo1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box2 {
+    width: 30%;
+}
+
+.box3 a {
+    color: #d68c02;
+}
+
+.box2 h3,
+.box3 h3 {
+    text-align: center;
+    padding: 20px;
+}
+.buttondownload{
+    margin-left: 48%;
+    width: 8%;
+    background-color:black
+}
+.acolor{
+    color: grey;
+    font-size: 1.6em;
+}
+.secciondownload{
+
+    visibility: hidden;
+}
+/*PAGINA PRINCIPAL*/
+
+.seccionqr{
+    visibility: visible;
+}
+
+
+/*RESPONSIVE*/
+
+@media only screen and (max-width: 800px) {
+    .descripcion {
+        display: block;
+    }
+    .uno {
+        margin: 30px 0 30px;
+    }
+    .descripcionsub {
+        width: 80%;
+        margin: auto;
+    }
+    .text1 {
+        display: block;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .qrresponsive{
+        width: 60%;
+        text-align: center;
+        display: block;
+    }
+    .grupo1 {
+        display: block;
+    }
+    .box1 {
+        text-align: center;
+    }
+    .box2 {
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+    }
+    .box3 ul {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    .secciondownload{
+     visibility: visible;
+     margin: auto;
+     display: block;
+    }
+    .seccionqr{
+        visibility: hidden;
+    }
+    .buttondownload{
+        width:45%;
+        margin-right:14%;
+        margin-left: 35%;
+    }
+    .qrletra{
+        width: 35%;
+        
+    }
+}
+
+
+/*RESPONSIVE*/
